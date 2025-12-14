@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>✉️ MailDefender – Validation Failed</title>
+    <style>
+        body { font-family: 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #4a4a4a; margin: 0; padding: 0; background-color: #fafafa; }
+        .container { max-width: 800px; margin: 40px auto; background-color: #fff; border-radius: 12px; overflow: hidden; box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08); }
+        .header { background: linear-gradient(135deg,#1e88e5, #0d47a1); padding: 30px; text-align: center; color: white; }
+        .logo { font-size: 32px; font-weight: 700; letter-spacing: 2px; }
+        .content { display: flex; flex-wrap: nowrap; gap: 30px; padding: 30px; }
+        .language-column { flex: 1; background-color: #fefefe; border-radius: 8px; padding: 25px; box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05); }
+        .language-title { font-size: 18px; font-weight: 600; color: #1e88e5; margin-bottom: 20px; display: flex; align-items: center; gap: 8px; }
+        h2 { font-size: 24px; color: #e74c3c; margin-bottom: 15px; }
+        p { font-size: 15px; line-height: 1.7; color: #555; margin-bottom: 18px; }
+        .error-icon { color: #e74c3c; font-size: 48px; text-align: center; margin-bottom: 15px; }
+        .footer { background-color: #f8f9fa; padding: 20px; text-align: center; font-size: 14px; color: #888; border-top: 1px solid #eee; }
+        .signature { font-style: italic; color: #1e88e5; }
+        @media (max-width: 768px) { .content { flex-wrap: wrap; } .language-column { flex: 1 1 100%; } }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">✉️ MailDefender</div>
+        </div>
+        <div class="content">
+            <!-- English -->
+            <div class="language-column">
+                <div class="language-title">🌍 English</div>
+                <div class="error-icon">✗</div>
+                <h2>Validation Failed</h2>
+                <p>Unfortunately, your email validation failed.</p>
+                <p>Please try again by clicking the validation link in the email we sent you.</p>
+                <p>If the issue persists, contact our support team.</p>
+            </div>
+            <!-- Français -->
+            <div class="language-column">
+                <div class="language-title">🇫🇷 Français</div>
+                <div class="error-icon">✗</div>
+                <h2>Validation échouée</h2>
+                <p>Malheureusement, la validation de votre e-mail a échoué.</p>
+                <p>Veuillez réessayer en cliquant sur le lien de validation dans l'e-mail que nous vous avons envoyé.</p>
+                <p>Si le problème persiste, contactez notre équipe de support.</p>
+            </div>
+        </div>
+        <div class="footer">
+            <p>Best regards,<br>The MailDefender Team</p>
+            <p class="signature">Made with ❤️ by Arnaud DE MATTEIS</p>
+        </div>
+    </div>
+</body>
+</html>
